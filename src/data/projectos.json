@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "nombre": "Buscador de clima",
+        "descripcion": "Buscador de clima es un proyecto construido con React.js, CSS3 y TypeScript, que permite consultar el clima de diversas ciudades de distintos países mediante el consumo de una API de clima gratuita.Durante la construcción de este proyecto se utilizó varios conceptos como el consumo de una api mediante el uso de axios y validación de formularios. Para usar el proyecto se debe agregar primeramente una ciudad y posteriormente seleccionar un país de las opciones que ofrece el select, de faltar algún elemento entrara la validación que nos pedirá llenar dichos campos y finalmente para la validación de la API se utilizó la herramienta Zod la cual permite nos permite tipar los resultados que nos entregue dicha API.",
+        "imagen": "clima",
+        "url":"https://clima-vue-git-main-luis-armandos-projects.vercel.app/"
+    },
+    {
+        "id": 2,
+        "nombre": "Tienda de Guitarras",
+        "descripcion": "GuitarLA es un proyecto de tienda de guitarras cuyo propósito es implementar un carrito de compras para dicha tienda utilizado React.js, TypeScript y Tailwind Css. Para el funcionamiento del carrito de compras se utilizó los fundamentos básicos de React y TypeScript como el uso de hooks (useState, useEffect y useMemo) además de hooks personalizados y el uso de Types básicos que permiten el funcionamiento del state otorgando una funcionalidad de  tiempo real del carrito de compras, mientras que para simular la base de datos se utilizó un archivo json con la información de las guitarras y las imágenes almacenadas de forma local. Finalmente se utilizó localStorage para tener datos persistentes en el carrito de compras",
+        "imagen": "guitarLA",
+        "url":"https://guileless-cassata-67d9fc.netlify.app/"
+    },
+    {
+        "id": 3,
+        "nombre": "Seguimiento de Pacientes",
+        "descripcion": "Seguimiento de pacientes de veterinaria es un proyecto que permite la alta de pacientes de una veterinaria mediante el uso de formularios (React Hook Forms), el proyecto está construido en React, TypeScript y Tailwind css. Para el almacenamiento de los datos y el estado global se utilizó la herramienta Zustand la cual permite el manejo del estado global de la aplicación así como  la creación de un archivo de Types y el uso de utility Types. Finalmente para obtener datos persistentes se utilizó la herramienta de localStorage.",
+        "imagen": "veterinaria",
+        "url":"https://jocular-sable-99e525.netlify.app/"
+    },
+    {
+        "id": 4,
+        "nombre": "Cocktail API",
+        "descripcion": "La construcción de este proyecto se basó en el uso de la API “TheCocktailDB” la cual para el diseño se utilizó Vue.js CSS Y JavaScript para la funcionalidad, el proyecto permite la consulta de recetas de bebidas de acuerdo a categorías e ingredientes así como la opción de agregarlas a favoritos.",
+        "imagen": "cocktail",
+        "url":"https://heroic-lolly-df9301.netlify.app/"
+    },
+    {
+        "id": 5,
+        "nombre": "Cotizador de Criptomonedas",
+        "descripcion": "La construcción de este proyecto se basó en el uso de la API “TheCocktailDB” la cual para el diseño se utilizó Vue.js CSS Y JavaScript para la funcionalidad, el proyecto permite la consulta de recetas de bebidas de acuerdo a categorías e ingredientes así como la opción de agregarlas a favoritos.",
+        "imagen": "coticripto",
+        "url":"https://cerulean-pony-5d2985.netlify.app/"
+    },
+    {
+        "id": 6,
+        "nombre": "Control de Gastos",
+        "descripcion": "La construcción de este proyecto se basó en el uso de la API “TheCocktailDB” la cual para el diseño se utilizó Vue.js CSS Y JavaScript para la funcionalidad, el proyecto permite la consulta de recetas de bebidas de acuerdo a categorías e ingredientes así como la opción de agregarlas a favoritos.",
+        "imagen": "planificador",
+        "url":"https://dulcet-meerkat-41f5cb.netlify.app/"
+    },
+    {
+        "id": 7,
+        "nombre": "UpTask",
+        "descripcion": "La construcción de este proyecto se basó en el uso de la API “TheCocktailDB” la cual para el diseño se utilizó Vue.js CSS Y JavaScript para la funcionalidad, el proyecto permite la consulta de recetas de bebidas de acuerdo a categorías e ingredientes así como la opción de agregarlas a favoritos.",
+        "imagen": "uptask",
+        "url":"https://up-task-front-end-react-hn76v1alg-luis-armandos-projects.vercel.app/"
+    }
+]

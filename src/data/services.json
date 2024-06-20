@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "nombre": "Desarrollo Fron-End",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, ipsum at feugiat pharetra, metus sapien lobortis lectus, in scelerisque augue elit sed turpis."
+    },
+    {
+        "id": 2,
+        "nombre": "Desarrollo Aplicaciones Web",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, ipsum at feugiat pharetra, metus sapien lobortis lectus, in scelerisque augue elit sed turpis."
+    }
+]
