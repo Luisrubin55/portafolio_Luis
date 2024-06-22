@@ -2,50 +2,71 @@
     {
         "id": 1,
         "nombre": "Buscador de clima",
-        "descripcion": "Buscador de clima es un proyecto construido con React.js, CSS3 y TypeScript, que permite consultar el clima de diversas ciudades de distintos países mediante el consumo de una API de clima gratuita.Durante la construcción de este proyecto se utilizó varios conceptos como el consumo de una api mediante el uso de axios y validación de formularios. Para usar el proyecto se debe agregar primeramente una ciudad y posteriormente seleccionar un país de las opciones que ofrece el select, de faltar algún elemento entrara la validación que nos pedirá llenar dichos campos y finalmente para la validación de la API se utilizó la herramienta Zod la cual permite nos permite tipar los resultados que nos entregue dicha API.",
+        "descripcion": "Buscador de clima es un proyecto construido con React.js, CSS3 y TypeScript, que permite consultar el clima de diversas ciudades de distintos países mediante el consumo de una API de clima gratuita. Durante la construcción de este proyecto se utilizó varios conceptos como el consumo de una API mediante el uso de axios y validación de formularios. Para usar el proyecto se debe agregar primeramente una ciudad y posteriormente seleccionar un país de las opciones que ofrece el select, de faltar algún elemento entrara la validación que nos pedirá llenar dichos campos y finalmente para la validación de la API se utilizó la herramienta Zod la cual permite tipar los resultados que nos entregue dicha API.",
         "imagen": "clima",
-        "url":"https://clima-vue-git-main-luis-armandos-projects.vercel.app/"
+        "url": "https://clima-vue-git-main-luis-armandos-projects.vercel.app/"
     },
     {
         "id": 2,
         "nombre": "Tienda de Guitarras",
-        "descripcion": "GuitarLA es un proyecto de tienda de guitarras cuyo propósito es implementar un carrito de compras para dicha tienda utilizado React.js, TypeScript y Tailwind Css. Para el funcionamiento del carrito de compras se utilizó los fundamentos básicos de React y TypeScript como el uso de hooks (useState, useEffect y useMemo) además de hooks personalizados y el uso de Types básicos que permiten el funcionamiento del state otorgando una funcionalidad de  tiempo real del carrito de compras, mientras que para simular la base de datos se utilizó un archivo json con la información de las guitarras y las imágenes almacenadas de forma local. Finalmente se utilizó localStorage para tener datos persistentes en el carrito de compras",
+        "descripcion": "GuitarLA es un proyecto de tienda de guitarras cuyo propósito es implementar un carrito de compras para dicha tienda utilizado React.js, TypeScript y Tailwind Css. Para el funcionamiento del carrito de compras se utilizó los fundamentos básicos de React y TypeScript como el uso de hooks (useState, useEffect y useMemo) además de hooks personalizados y el uso de Types básicos que permiten el funcionamiento del state otorgando una funcionalidad de  tiempo real del carrito de compras, mientras que para simular la base de datos se utilizó un archivo json con la información de las guitarras y las imágenes almacenadas de forma local. Finalmente se utilizó localStorage para tener datos persistentes en el carrito de compras.",
         "imagen": "guitarLA",
-        "url":"https://guileless-cassata-67d9fc.netlify.app/"
+        "url": "https://guileless-cassata-67d9fc.netlify.app/"
     },
     {
         "id": 3,
         "nombre": "Seguimiento de Pacientes",
         "descripcion": "Seguimiento de pacientes de veterinaria es un proyecto que permite la alta de pacientes de una veterinaria mediante el uso de formularios (React Hook Forms), el proyecto está construido en React, TypeScript y Tailwind css. Para el almacenamiento de los datos y el estado global se utilizó la herramienta Zustand la cual permite el manejo del estado global de la aplicación así como  la creación de un archivo de Types y el uso de utility Types. Finalmente para obtener datos persistentes se utilizó la herramienta de localStorage.",
         "imagen": "veterinaria",
-        "url":"https://jocular-sable-99e525.netlify.app/"
+        "url": "https://jocular-sable-99e525.netlify.app/"
     },
     {
         "id": 4,
         "nombre": "Cocktail API",
-        "descripcion": "La construcción de este proyecto se basó en el uso de la API “TheCocktailDB” la cual para el diseño se utilizó Vue.js CSS Y JavaScript para la funcionalidad, el proyecto permite la consulta de recetas de bebidas de acuerdo a categorías e ingredientes así como la opción de agregarlas a favoritos.",
+        "descripcion": "La construcción de este proyecto se basó en el uso de la API “TheCocktailDB” ya que es una API gratuita. Las tecnologías usadas para este proyecto son React.js y Vue.js ya que se puso en práctica ambas tecnologías para su comparación, mientras que para los estilos se utilizó Tailwind css,  para el lado de React se utilizó TypeScript, React router, Zustand y Zod para la validación de la API  mientras que para Vue.js se utilizó JavaScript. Vue router y Pinia para el store. La finalidad de este proyecto es buscar bebidas mediante el ingreso de unos parámetros(nombre o ingredientes) y finalmente seleccionar una categoría y como respuesta nos muestra todas las bebidas con dichas coincidencias en las cuales podemos ver la receta, ingredientes y finalmente un botón para agregar nuestras bebidas al apartado de favoritos. Cabe mencionar que en ambos proyectos se utilizó localStorage para obtener datos persistentes. ",
         "imagen": "cocktail",
-        "url":"https://heroic-lolly-df9301.netlify.app/"
+        "url": "https://heroic-lolly-df9301.netlify.app/"
     },
     {
         "id": 5,
         "nombre": "Cotizador de Criptomonedas",
-        "descripcion": "La construcción de este proyecto se basó en el uso de la API “TheCocktailDB” la cual para el diseño se utilizó Vue.js CSS Y JavaScript para la funcionalidad, el proyecto permite la consulta de recetas de bebidas de acuerdo a categorías e ingredientes así como la opción de agregarlas a favoritos.",
+        "descripcion": "Cotizador de Criptomonedas es un proyecto el cual nos permite cotizar las 20 criptomonedas más populares actualmente en base a las monedas más populares como lo son el Dólar Estadounidense, el Euro entre algunas más. Este proyecto al igual que el anterior esta construido con React y Vue.js del Lado de React se utilizaron herramientas como Zod para la validacion de los datos de la API y Zustand para el estado global, mientras que del lado de Vue.js se utilizo composables de vue, en ambos proyectos se utilizo CSS3 para los estilos y la herramienta axios para la consulta de la API.",
         "imagen": "coticripto",
-        "url":"https://cerulean-pony-5d2985.netlify.app/"
+        "url": "https://cerulean-pony-5d2985.netlify.app/"
     },
     {
         "id": 6,
         "nombre": "Control de Gastos",
-        "descripcion": "La construcción de este proyecto se basó en el uso de la API “TheCocktailDB” la cual para el diseño se utilizó Vue.js CSS Y JavaScript para la funcionalidad, el proyecto permite la consulta de recetas de bebidas de acuerdo a categorías e ingredientes así como la opción de agregarlas a favoritos.",
+        "descripcion": "Proyecto construido con React, TypeScript, Tailwind css y Contex API para el estado global. Planificador de gastos es un proyecto que nos permite administrar nuestros gastos de acuerdo a la cantidad ingresada por el usuario, el proyecto cuenta con la integración de Headless UI la cual nos permite implementar modales muy atractivos para el usuario y una gráfica circular la cual representa el dinero gastado de acuerdo al los gastos ingresados por el usuario. Finalmente esta App permite mantener los datos en localStorage los cuales permanecen persistentes.",
         "imagen": "planificador",
-        "url":"https://dulcet-meerkat-41f5cb.netlify.app/"
+        "url": "https://dulcet-meerkat-41f5cb.netlify.app/"
     },
     {
         "id": 7,
+        "nombre": "Bienes Raices",
+        "descripcion": "Bienes Raíces es un proyecto codificado con tecnologías como Vue.js, Vue Router, Storage y Pinia, mientras que el almacenamiento de datos se utilizó Firebase en conjunto con Firestore. Para los estilos y apariencia del proyecto se utilizaron herramientas como Tailwind css y Vuetify. La finalidad de este proyecto es implementar las funcionalidades del CRUD utilizando Firebase. El proyecto consta de una vista para los usuarios donde se muestran propiedades en venta así como sus respectivas características y ubicación de dicha propiedad en un mapa interactivo. Por otra parte la vista del administrador permite Administrar dichas propiedades como Agregar una nueva propiedad, eliminarla y/o actualizarla, por lo tanto es un proyecto 100% FullStack.",
+        "imagen": "bienes",
+        "url": "https://bienes-raices-vue-five.vercel.app/"
+    },
+    {
+        "id": 8,
+        "nombre": "Moda Viva",
+        "descripcion": "Moda Viva es un proyecto 100% Full Stack, el cual está construido con tecnologías como Vue.js Vue Router, Pinia y  Tailwind css para los estilos, mientras que para el almacenamiento de datos se utilizó Firebase. Moda Viva es un proyecto de punto de venta para una tienda de ropa, calzado y accesorios. Cuenta con dos vistas la primera es el punto de venta donde el empleado podrá ver todos los productos de la tienda así como realizar ventas y canjear cupones de descuento que el usuario tenga, mientras que la segunda vista es del administrador ya que en esta podrá realizar todas las acciones de CRUD como ver sus productos, agregar, editar y eliminar dichos productos además podrá consultar las ventas por medio de un calendario interactivo.",
+        "imagen": "modaviva",
+        "url": "https://pos-vuejs-firebase-eight.vercel.app/"
+    },
+    {
+        "id": 9,
         "nombre": "UpTask",
-        "descripcion": "La construcción de este proyecto se basó en el uso de la API “TheCocktailDB” la cual para el diseño se utilizó Vue.js CSS Y JavaScript para la funcionalidad, el proyecto permite la consulta de recetas de bebidas de acuerdo a categorías e ingredientes así como la opción de agregarlas a favoritos.",
+        "descripcion": "UpTask es un proyecto 100% Full Stack y está dividido en dos partes, por una parte el FrontEnd y por el otro lado el BackEnd.  El FrontEnd está construido con herramientas como React, TypeScript, React Query, Tailwind css, Headless UI, y Zod para la validación de los datos de la API que nos entrega el BackEnd y finalmente la herramienta Drag N Drop la cual nos permite modificar el estado de las tareas de una manera más interactiva. El BackEnd fue construido en Express y se utilizaron tecnologías como Mongoose que es un ODM para Node.js  ya que los datos se almacenaron en MongoDB, por otro lado para la construcción de esta parte se utilizó la arquitectura MVC ya que es una de las más populares en la industria. Este proyecto utiliza para su seguridad JWT (Json Web Token) ya que este sistema cuenta con diversos roles. UpTask es un sistema de gestión de proyectos y cuenta con un sistema de logueo, registro de usuarios, un apartado de olvide contraseña, todo esto bajo la seguridad de autenticación con tokens vía email aunque por el momento se utiliza un simulador de envío de emails como Mailtrap. Una vez autenticado en el sistema tendremos acceso al panel principal donde podremos ver, crear, editar y eliminar nuestros proyectos. Dentro de cada proyecto podremos crear, eliminar, actualizar y editar tareas que tengamos en nuestro proyectos. Además de una opción muy interesante como lo es agregar colaboradores los cuales podrán cambiar el estado de las tareas así como agregar notas en cada un de las tareas o eliminar solo sus notas creadas por dichos colaboradores. Cabe mencionar que cada uno de los roles tiene seguridad tanto en FrontEnd como en Backend,  mediante JWT y uso de Middlewares en el BackEnd ",
         "imagen": "uptask",
-        "url":"https://up-task-front-end-react-hn76v1alg-luis-armandos-projects.vercel.app/"
+        "url": "https://up-task-front-end-react.vercel.app/"
+    },
+    {
+        "id": 10,
+        "nombre": "Quiosco 'The Coffe'",
+        "descripcion": "Proyecto creado con tecnologías como Next.js, TypeScript, Server Actions, Zod y Zustand además de incorporar Prisma ORM ya que para el almacenamiento de los datos se utilizó Postgresql  como base de datos mientras que para los estilos se utilizó Tailwind css. Este quiosco de comida consta de tres vistas, la primera los clientes de la cafetería podrán ver los productos por categorías así como ordenar sus pedidos y ver el total de la cuenta desde esta misma vista. La segunda parte del proyecto la podrán ver el área de cocina en la cual se van mostrando los pedidos en tiempo real y estos en cuanto estén listos podrán ser marcados como completado y también tendrán la opción de agregar editar y buscar productos que tengan en el menú. Finalmente en la tercera vista de este proyecto se van mostrando las primeras 5 órdenes completadas, para que los usuarios puedan pasar por sus pedidos. ",
+        "imagen": "quiosco",
+        "url": "https://quiosco-next-app-router-three.vercel.app/"
     }
 ]

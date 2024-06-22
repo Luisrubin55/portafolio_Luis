@@ -1,10 +1,10 @@
 
 export default function AboutMe() {
     return (
-        <div className="flex justify-between gap-9 mx-32">
+        <div className="grid md:grid-cols-2 items-center">
             <div className="p-5 w-80 h-96 rounded-lg border-blue-700 border-8">
-
             </div>
+
             <div className="">
                 <h1 className="text-4xl font-bold text-white my-5">Sobre Mí</h1>
                 <p className="text-white text-justify text-xl">

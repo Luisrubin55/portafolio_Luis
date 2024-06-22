@@ -30,11 +30,11 @@ function App() {
   }
   return (
     <>
-      <header className="p-3 ">
+      <header className="p-3 mx-10">
         <Header />
       </header>
 
-      <section className="mt-20" id="home">
+      <section className="mt-20 mx-10" id="home">
         <AboutMe />
       </section>
 

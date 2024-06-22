@@ -19,7 +19,7 @@ export default function Header() {
             </nav>
             
 
-            <div className="mt-20">
+            <div className="md:mt-20 mt-10">
                 <h1 className=" text-3xl md:text-5xl text-white font-bold">
                     <span className="text-slate-300">
                         I'm a {' '}

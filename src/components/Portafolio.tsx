@@ -17,7 +17,7 @@ export default function Portafolio({ handleChangeModal, setProyectoSeleccionado 
     return (
         <div className="mx-10">
             <h1 className="text-3xl text-white font-bold uppercase text-center ">Portafolio</h1>
-            <div className="mt-20 space-y-10">
+            <div className="md:mt-20 mt-10 space-y-10">
                 {proyectos.map(proyecto => (
                     proyecto.id % 2 ? (
                         <Proyecto

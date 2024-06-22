@@ -53,7 +53,7 @@ export default function ModalProyectos({modal, closeModal, proyectoSeleccionado}
                                     <Dialog.Title as="h3" className="text-white text-xl font-extrabold my-5 text-center">
                                         <a href={proyectoSeleccionado.url} target='_blank' className="bg-gradient-to-r from-cyan-500 to-blue-600 p-2 rounded-lg hover:to-blue-700">Ver Proyecto</a>
                                     </Dialog.Title>
-                                    <Dialog.Title as="h3" className="text-white text-xl font-semibold my-5">
+                                    <Dialog.Title as="h3" className="text-white text-xl font-semibold my-5 text-justify leading-relaxed">
                                         {proyectoSeleccionado.descripcion}
                                     </Dialog.Title>
                                 </Dialog.Panel>
