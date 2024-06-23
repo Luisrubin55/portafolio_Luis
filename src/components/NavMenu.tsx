@@ -21,25 +21,24 @@ export default function NavMenu() {
             >
                 <Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen lg:max-w-min -translate-x-1/3 lg:-translate-x-48">
                     <div className="w-40 lg:w-11 shrink rounded-xl bg-white p-4 text-sm font-semibold leading-6 text-gray-900 shadow-lg ring-1 ring-gray-900/5">
-                        <a href='/profile' className='block p-2 hover:text-purple-950'>Inicio</a>
                         <a
-                            href='/profile'
+                            href='#home'
                             className='block p-2 hover:text-purple-950'
                         >Sobre Mí</a>
                         <a
-                            href='/'
+                            href='#portafolio'
                             className='block p-2 hover:text-purple-950'
                         >Portafolio</a>
                         <a
-                            href='/'
+                            href='#servicios'
                             className='block p-2 hover:text-purple-950'
                         >Servicios</a>
                         <a
-                            href='/'
+                            href='#experiencia'
                             className='block p-2 hover:text-purple-950'
                         >Experiencia</a>
                         <a
-                            href='/'
+                            href='#contacto'
                             className='block p-2 hover:text-purple-950'
                         >Contacto</a>
                     </div>

@@ -16,11 +16,11 @@ export default function Contacto() {
                             <p className="text-lg md:text-xl font-semibold text-slate-200 line-clamp-3">Puedes contactarme por de medio de mis redes sociales en los enlaces de abajo.</p>
                         </div>
                         <div className="space-y-5">
-                            <div className="flex md:gap-4 gap-2">
+                            <div className=" flex items-center md:gap-4 gap-2">
                                 <PhoneIcon className="md:w-10 w-6 bg-gradient-to-tr from-sky-300 to-blue-500 rounded-xl p-2 text-white hover:cursor-auto" />
                                 <p className="text-sm md:text-xl font-bold text-white">55 11189830</p>
                             </div>
-                            <div className="flex md:gap-4 gap-2">
+                            <div className="flex items-center md:gap-4 gap-2">
                                 <EnvelopeIcon className="md:w-10 w-6 bg-gradient-to-tr from-sky-300 to-blue-500 rounded-xl p-2 text-white hover:cursor-auto" />
                                 <p className="font-bold text-xs md:text-xl text-white">luisrubin55@gmail.com</p>
                             </div>

@@ -15,6 +15,7 @@ function App() {
     id: 0,
     nombre: '',
     descripcion: '',
+    tecnologias: [''],
     imagen:'',
     url:''
   }
@@ -34,7 +35,7 @@ function App() {
         <Header />
       </header>
 
-      <section className="mt-20 mx-10" id="home">
+      <section className="mt-24 mx-10" id="home">
         <AboutMe />
       </section>
 

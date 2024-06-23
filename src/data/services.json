@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "nombre": "Desarrollo Fron-End",
-        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, ipsum at feugiat pharetra, metus sapien lobortis lectus, in scelerisque augue elit sed turpis."
+        "nombre": "Desarrollador Front End con React",
+        "descripcion":"Soy desarrollador React con más de un año de experiencia desarrollando aplicaciones con JavaScript y aprendiendo a TypeScript, en conjunto con herramientas como Tailwind Css, CSS3 y consumo de API’s. Actualmente me estoy especializado en el entorno de React por lo que es mi mejor herramienta para desarrollar sistemas web. "
     },
     {
         "id": 2,
-        "nombre": "Desarrollo Aplicaciones Web",
-        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, ipsum at feugiat pharetra, metus sapien lobortis lectus, in scelerisque augue elit sed turpis."
+        "nombre": "Desarrollador Web con php, html y css3",
+        "descripcion":"Mi pasión como desarrollador web comezón cuando tenía 17 años desde entonces he estado desarrollando sistemas web con tecnologías como PHP, HTML, CSS3, SASS y Bootstrap por más de 5 años. Construllendo desde sitios y paginas wep pequeñas hasta sistemas de E-Commerce con metodo de pago como Paypal."
     }
 ]

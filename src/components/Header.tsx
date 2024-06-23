@@ -3,7 +3,7 @@ import NavMenu from "./NavMenu"
 
 export default function Header() {
     return (
-        <div>
+        <div> 
             <nav className="flex justify-between w-full">
                 <Logo />
                 <div className="md:flex space-x-5 p-2 font-bold text-white uppercase text-xs items-center hidden">
@@ -19,7 +19,7 @@ export default function Header() {
             </nav>
             
 
-            <div className="md:mt-20 mt-10">
+            <div className="md:mt-20 mt-10 space-y-6">
                 <h1 className=" text-3xl md:text-5xl text-white font-bold">
                     <span className="text-slate-300">
                         I'm a {' '}
@@ -33,10 +33,10 @@ export default function Header() {
                         <span className="relative inline-flex h-1 w-1 "></span>
                     </span>
                 </h2>
-                <button className="bg-gradient-to-r from-cyan-500 to-blue-700 mt-8 p-3 rounded-lg text-white ">
-                    Contactame
-                </button>
             </div>
+            <a href="https://api.whatsapp.com/send?phone=5511189830&text=Hola" target="_blank" className=" absolute mt-5 bg-gradient-to-r from-cyan-500 to-blue-700 p-3 rounded-lg text-white ">
+                    Contactame
+            </a>
         </div>
     )
 }

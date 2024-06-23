@@ -5,14 +5,16 @@ type ProyectoProps = {
         id: number;
         nombre: string;
         descripcion: string;
+        tecnologias: string[];
         imagen: string;
-        url: string
+        url: string;
     }
     handleChangeModal: () => void
     setProyectoSeleccionado: React.Dispatch<React.SetStateAction<{
         id: number;
         nombre: string;
         descripcion: string;
+        tecnologias: string[];
         imagen: string;
         url: string;
     }>>

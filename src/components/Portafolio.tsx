@@ -8,6 +8,7 @@ type PortafolioProps = {
         id: number;
         nombre: string;
         descripcion: string;
+        tecnologias: string[];
         imagen: string;
         url: string;
     }>>

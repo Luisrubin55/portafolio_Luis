@@ -5,6 +5,7 @@ type ProyectoProps = {
         id: number;
         nombre: string;
         descripcion: string;
+        tecnologias:  string[]
         imagen: string;
         url: string
     }
@@ -13,6 +14,7 @@ type ProyectoProps = {
         id: number;
         nombre: string;
         descripcion: string;
+        tecnologias: string[];
         imagen: string;
         url: string;
     }>>

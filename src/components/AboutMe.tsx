@@ -1,8 +1,11 @@
 
 export default function AboutMe() {
     return (
-        <div className="grid md:grid-cols-2 items-center">
-            <div className="p-5 w-80 h-96 rounded-lg border-blue-700 border-8">
+        <div className="grid md:grid-cols-2 justify-items-center items-center">
+            <div className="p-2 bg-gradient-to-t to-sky-600 from-blue-700 rounded-lg w-2/3">
+                <div className="p-2 bg-slate-950">
+                    <img src="./programador.jpg" alt="Imagen programador" className="w-auto rounded-lg" />
+                </div>
             </div>
 
             <div className="">
