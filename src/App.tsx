@@ -6,6 +6,7 @@ import Portafolio from "./components/Portafolio"
 import Services from "./components/Services"
 import Contacto from "./components/Contacto"
 import Experiencia from "./components/Experiencia"
+import Inicio from "./components/Inicio"
 
 
 
@@ -31,9 +32,13 @@ function App() {
   }
   return (
     <>
-      <header className="p-3 mx-10">
+      <header>
         <Header />
       </header>
+
+      <section className="p-3 mx-10">
+        <Inicio />
+      </section>
 
       <section className="mt-24 mx-10" id="home">
         <AboutMe />
