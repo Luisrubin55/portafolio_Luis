@@ -2,11 +2,11 @@
     {
         "id": 1,
         "nombre": "Desarrollador Front End con React",
-        "descripcion":"Soy desarrollador React con más de un año de experiencia desarrollando aplicaciones con JavaScript y aprendiendo a TypeScript, en conjunto con herramientas como Tailwind Css, CSS3 y consumo de API’s. Actualmente me estoy especializado en el entorno de React por lo que es mi mejor herramienta para desarrollar sistemas web. "
+        "descripcion":"Soy desarrollador React con más de dos años de experiencia desarrollando aplicaciones con JavaScript y aprendiendo a TypeScript, en conjunto con herramientas como Tailwind Css, CSS3 y consumo de API’s. Actualmente me estoy especializado en el entorno de React por lo que es mi mejor herramienta para desarrollar sistemas web. "
     },
     {
         "id": 2,
-        "nombre": "Desarrollador Web con php, html y css3",
-        "descripcion":"Mi pasión como desarrollador web comezón cuando tenía 17 años desde entonces he estado desarrollando sistemas web con tecnologías como PHP, HTML, CSS3, SASS y Bootstrap por más de 5 años. Construllendo desde sitios y paginas wep pequeñas hasta sistemas de E-Commerce con metodo de pago como Paypal."
+        "nombre": "Desarrollador Back End con Spring Boot",
+        "descripcion":"Soy desarrollador backend con experiencia en la creación de aplicaciones robustas, escalables y seguras utilizando el poderoso ecosistema de Spring Boot, ademas del diseño e implementación de APIs con arquitectura REST limpias, seguras y bien documentadas con Swagger UI, asi como la implementacion de pruebas unitarias con JUnit y Mockito."
     }
 ]

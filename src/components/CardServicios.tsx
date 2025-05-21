@@ -15,7 +15,7 @@ export default function CardServicios({servicio}: CardServiciosProps) {
                 <div>
                     <h1 className='text-white font-bold uppercase md:text-3xl text-xl'>{servicio.nombre}</h1>
                 </div>
-                <p className='text-slate-200 md:text-xl text-lg mt-5'>{servicio.descripcion}</p>
+                <p className='text-slate-200 md:text-xl text-lg mt-5 text-justify'>{servicio.descripcion}</p>
             </div>
         </div>
     )

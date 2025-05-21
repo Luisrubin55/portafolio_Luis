@@ -5,7 +5,6 @@ import ModalProyectos from "./components/ModalProyectos"
 import Portafolio from "./components/Portafolio"
 import Services from "./components/Services"
 import Contacto from "./components/Contacto"
-import Experiencia from "./components/Experiencia"
 import Inicio from "./components/Inicio"
 
 
@@ -36,7 +35,7 @@ function App() {
         <Header />
       </header>
 
-      <section className="p-3 mx-10">
+      <section className="p-3 mx-10" id="inicio">
         <Inicio />
       </section>
 
@@ -44,17 +43,13 @@ function App() {
         <AboutMe />
       </section>
 
-      <section className="mt-10" id="portafolio">
+      <section className="mt-10 mx-10" id="portafolio">
         <Portafolio handleChangeModal={handleChangeModal} setProyectoSeleccionado={setProyectoSeleccionado} />
         <ModalProyectos modal={modal} closeModal={closeModal} proyectoSeleccionado={proyectoSeleccionado} />
       </section>
 
       <section className="mt-10 mx-10" id="servicios">
         <Services />
-      </section>
-
-      <section className="mt-10 mx-10" id="experiencia">
-        <Experiencia />
       </section>
 
       <footer className="mt-10" id="contacto">

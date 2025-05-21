@@ -1,6 +1,5 @@
 import proyectos from '../data/projectos.json'
 import Proyecto from './Proyecto'
-import ProyectoInvertido from './ProyectoInvertido'
 
 type PortafolioProps = {
     handleChangeModal: () => void
@@ -18,23 +17,14 @@ export default function Portafolio({ handleChangeModal, setProyectoSeleccionado 
     return (
         <div className="mx-10">
             <h1 className="text-3xl text-white font-bold uppercase text-center ">Portafolio</h1>
-            <div className="md:mt-20 mt-10 space-y-10">
+            <div className="md:mt-20 mt-5 grid md:grid-cols-2 gap-5">
                 {proyectos.map(proyecto => (
-                    proyecto.id % 2 ? (
-                        <Proyecto
+                    <Proyecto
                             key={proyecto.id}
                             proyecto={proyecto}
                             handleChangeModal={handleChangeModal}
                             setProyectoSeleccionado={setProyectoSeleccionado}
-                        />
-                    ) : (
-                        <ProyectoInvertido
-                            key={proyecto.id}
-                            proyecto={proyecto}
-                            handleChangeModal={handleChangeModal}
-                            setProyectoSeleccionado={setProyectoSeleccionado}
-                        />
-                    )
+                    />
                 ))}
             </div>
         </div>

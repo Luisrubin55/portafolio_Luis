@@ -22,7 +22,7 @@ export default function Contacto() {
                             </div>
                             <div className="flex items-center md:gap-4 gap-2">
                                 <EnvelopeIcon className="md:w-10 w-6 bg-gradient-to-tr from-sky-300 to-blue-500 rounded-xl p-2 text-white hover:cursor-auto" />
-                                <p className="font-bold text-xs md:text-xl text-white">luisrubin55@gmail.com</p>
+                                <p className="font-bold text-xs md:text-xl text-white">luisrubin20@hotmail.com</p>
                             </div>
 
                         </div>
