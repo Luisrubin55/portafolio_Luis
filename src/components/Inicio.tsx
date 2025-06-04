@@ -33,7 +33,7 @@ const Inicio = () => {
                     <div className="flex mt-10 gap-10 md:justify-start justify-center">
                         <a href="https://github.com/Luisrubin55" target="_blank"><img src="/icons/git.svg" alt="icono git" className="w-10 hover:bg-sky-500 rounded-full" /></a>
                         <a href="https://api.whatsapp.com/send?phone=5511189830&text=Hola" target="_blank"><img src="/icons/whatsapp.svg" alt="icono whatsapp" className="w-10 hover:bg-sky-500 rounded-full" /></a>
-                        <a href="https://www.linkedin.com/in/luis-armando-arenas/" target="_blank"><img src="/icons/linkedin.svg" alt="icono linkedin" className="w-10 hover:bg-sky-500 rounded-md" /></a>
+                        <a href="https://www.linkedin.com/in/luis-armando-arenas-rubin/" target="_blank"><img src="/icons/linkedin.svg" alt="icono linkedin" className="w-10 hover:bg-sky-500 rounded-md" /></a>
                     </div>
                 </div>
                 <div className="p-0 items-center">
