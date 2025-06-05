@@ -35,7 +35,7 @@ export default function Contacto() {
                                 <img src="./icons/facebook.svg" alt="icono facebook" className="md:w-12 w-8 bg-gradient-to-tr from-sky-300 to-blue-500 rounded-xl p-2"/>
                                 {' '} @luisarmando.arenas.37
                             </a>
-                            <a href="https://www.linkedin.com/in/luis-armando-arenas/" target="_blank" className="flex md:flex-row flex-col gap-1 md:gap-5 items-center md:text-xl text-xs font-bold text-white hover:text-slate-950">
+                            <a href="https://www.linkedin.com/in/luis-armando-arenas-rubin/" target="_blank" className="flex md:flex-row flex-col gap-1 md:gap-5 items-center md:text-xl text-xs font-bold text-white hover:text-slate-950">
                                 <img src="./icons/linkedin.svg" alt="icono linkedin"  className="md:w-12 w-8 bg-gradient-to-tr from-sky-300 to-blue-500 rounded-xl p-2"/>
                                 {' '} luis-armando-arenas
                             </a>
