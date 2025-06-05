@@ -21,7 +21,7 @@ export default function AboutMe() {
                     <div className="bg-slate-800 p-4 rounded-md border-t-2 border-sky-500">
                         <h3 className="text-sky-500 text-2xl font-bold mb-2">Mi Perfil</h3>
                         <p className="text-white text-justify text-xl">
-                            Busco contribuir en proyectos innovadores, optimizando el rendimiento de las aplicaciones. Me caracterizo mi capacidad para adaptarme rapidamente a nuevos entornos de trabajo y tecnologias.
+                            Busco contribuir en proyectos innovadores, optimizando el rendimiento de las aplicaciones. Me caracterizo por mi capacidad para adaptarme rapidamente a nuevos entornos de trabajo y tecnologias.
                         </p>
                     </div>
                 </div>
